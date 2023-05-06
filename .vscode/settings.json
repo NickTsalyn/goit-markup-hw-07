@@ -2,4 +2,52 @@
     "cSpell.words": [
         "subscr"
     ]
-}
+},
+
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ffff35" // change color only for the comment text
+        }
+      }
+    //   color of attributes
+      {
+        "scope": ["entity.other.attribute-name.html"],
+        "settings": {
+          "foreground": "#ee00ff"
+        }
+      },
+      // color of class names
+      {
+        "scope": ["string.quoted.double.html", "entity.other.attribute-name.class.css"],
+        "settings": {
+          "foreground": "#12e323"
+        }
+      },
+      // color of start quotes
+      {
+        "scope": ["punctuation.definition.string.begin.html"],
+        "settings": {
+          "foreground": "#ff0000"
+        }
+      },
+      // color of end quotes
+      {
+        "scope": ["punctuation.definition.string.end.html"],
+        "settings": {
+          "foreground": "#5e1414"
+        }
+      }
+      {
+        "scope": ["punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ffff35" // change color only for the punctuation
+        }
+      }
+    ]
+  }
+
