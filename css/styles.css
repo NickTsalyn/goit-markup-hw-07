@@ -173,7 +173,7 @@ body {
     padding: 0;
     background: #e7e9fc;
     border: 1px solid #2e2f42;
-    /* opacity: 0.1; */
+    opacity: 0.1;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -345,6 +345,18 @@ body {
   .contacts-link:focus {
     color: #404bbf;
   }
+
+  .studio-underline::after {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -364,18 +376,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     transition: color var(--transition-dur-timing-func);
-  }
-
-  .studio-underline::after {
-    content: '';
-    display: inline-block;
-    width: 48px;
-    height: 4px;
-    background: #404bbf;
-    border-radius: 2px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
   }
 }
 
@@ -1353,7 +1353,7 @@ footer {
   |============================
 */
 
-/* .portfolio-underline::after {
+.portfolio-underline::after {
   content: "";
   display: inline-block;
   width: 66px;
@@ -1445,7 +1445,6 @@ footer {
 
 .overlay {
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -1465,4 +1464,4 @@ footer {
 
 .project-item:hover .overlay {
   transform: translate(0, 0);
-} */
+}
