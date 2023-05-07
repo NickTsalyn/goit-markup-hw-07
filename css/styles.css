@@ -882,6 +882,7 @@ body {
   padding-top: 96px;
   padding-bottom: 96px;
   background: #2e2f42;
+  min-width: 396px;
 }
 
 .footer-container {
@@ -1319,7 +1320,7 @@ body {
   |============================
 */
 
-/* .button-nav {
+.button-nav {
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -1329,10 +1330,10 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 16px;
-  width: 263px;
+  margin-right: auto;
   margin-bottom: 48px;
+  min-width: 263px;
 }
-
 
 .button-item {
   font-family: inherit;
@@ -1359,11 +1360,16 @@ body {
   }
 
   .list-button {
-    flex-wrap: nowrap;
+    flex-wrap: no-wrap;
     justify-content: center;
-    width: 586px;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 64px;
   }
 
+  .button-item {
+    padding: 12px 24px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1373,28 +1379,61 @@ body {
   }
 
   .list-button {
+    margin-bottom: 72px;
   }
-} */
+}
 
-/* .button-item {
-  font-family: inherit;
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 396px;
+  margin: 0 auto;
+}
+
+.project-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.overlay {
+  display: none;
+}
+
+.project-item {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-images {
+  width: 396px;
+  height: 280px;
+}
+
+.features-title {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: start;
+}
+
+.features-item {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--primary-button-color);
-  background: var(--primary-button-background-color);
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  padding: 12px 24px;
-  cursor: pointer;
-  transition: background-color var(--transition-dur-timing-func),
-    color var(--transition-dur-timing-func),
-    border var(--transition-dur-timing-func),
-    box-shadow var(--transition-dur-timing-func);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
+/* .portfolio-images {
+
 } */
 
-.portfolio-underline::after {
+/* .portfolio-underline::after {
   content: '';
   display: inline-block;
   width: 66px;
@@ -1516,6 +1555,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-
+} */
