@@ -1320,7 +1320,7 @@ body {
   |============================
 */
 
-.button-nav {
+/* .button-nav {
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -1426,14 +1426,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 
 
 /* .portfolio-images {
 
 } */
 
-/* .portfolio-underline::after {
+.portfolio-underline::after {
   content: '';
   display: inline-block;
   width: 66px;
@@ -1555,4 +1555,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
+}
