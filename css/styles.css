@@ -46,10 +46,6 @@ body {
     width: 428px;
     margin: 0 auto;
   }
-
-  /* .contacts-list-link-number {
-    font-size: 36px;
-  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -120,6 +116,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
 }
 
 .logo {
@@ -1068,7 +1068,6 @@ body {
 
   .footer-form {
     margin-left: auto;
-    width: 453px;
   }
 }
 
@@ -1426,11 +1425,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
-
-
-/* .portfolio-images {
-
 } */
 
 .portfolio-underline::after {
