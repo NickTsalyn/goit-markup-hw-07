@@ -46,6 +46,7 @@ body {
     width: 428px;
     margin: 0 auto;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -882,7 +883,7 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
   background: #2e2f42;
-  min-width: 396px;
+  /* min-width: 396px; */
 }
 
 .footer-container {
@@ -1068,6 +1069,7 @@ button {
 
   .footer-form {
     margin-left: auto;
+    width: 453px;
   }
 }
 
@@ -1426,6 +1428,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 } */
+
 
 .portfolio-underline::after {
   content: '';
