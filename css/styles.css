@@ -41,7 +41,7 @@ body {
     padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
     .container {
         width: 428px;
         margin: 0 auto;
@@ -1331,7 +1331,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 16px;
-    
+    margin-right: auto;
     margin-bottom: 48px;
     width: 320px;
 }
