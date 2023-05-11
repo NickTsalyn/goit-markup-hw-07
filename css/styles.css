@@ -1331,7 +1331,7 @@ button {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 16px;
-    margin-right: auto;
+    
     margin-bottom: 48px;
     width: 320px;
 }
@@ -1387,10 +1387,10 @@ button {
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* .portfolio-images {
-  max-width: 396px;
+.portfolio-images {
+  width: 396px;
   height: 280px;
-} */
+}
 
 .feature-title {
     font-weight: 500;
