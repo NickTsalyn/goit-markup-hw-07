@@ -1388,8 +1388,8 @@ button {
 }
 
 .portfolio-images {
-  width: 396px;
-  height: 280px;
+    width: 396px;
+    height: 280px;
 }
 
 .feature-title {
@@ -1434,8 +1434,13 @@ button {
         padding-bottom: 96px;
     }
 
-        .menu-list {
+    .menu-list {
         position: relative;
+    }
+
+    .portfolio-images {
+      width: 356px;
+      height: 300px;
     }
 
     .portfolio-underline::after {
@@ -1465,11 +1470,14 @@ button {
         margin-bottom: 72px;
     }
 
-
     .project-list {
         column-gap: 24px;
         row-gap: 48px;
         flex-basis: calc(100% - 72px / 3);
+    }
+
+    .portfolio-images {
+      width: 360px;
     }
 
     .project-link {
