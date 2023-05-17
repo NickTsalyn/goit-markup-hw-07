@@ -1514,11 +1514,11 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .project-link:hover.overlay {
+  .project-link:hover .overlay {
     transform: translate(0, 0);
   }
 
-  .project-link:focus.overlay {
+  .project-link:focus .overlay {
     transform: translate(0, 0);
   }
 }
